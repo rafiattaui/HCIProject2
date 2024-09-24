@@ -1,0 +1,32 @@
+.background {
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.blibli.com%2Ffriends-backend%2Fwp-content%2Fuploads%2F2023%2F07%2FB700078-2-Tentang-Pagi-Sore-scaled.jpg&f=1&nofb=1&ipt=9321ec233b2c38394680bccecf717bb98d7222bd6876e9b13f3bf7664ab7f210&ipo=images);
+    background-repeat: no-repeat;
+    background-color: beige;
+}
+
+body {
+    font-family:Arial, Helvetica, sans-serif
+}
+
+input {
+    width: 75%;
+}
+
+label,
+h3,
+h1 {
+    color: white;
+    background-color: grey;
+}
+
+h3 {
+    margin-right: 90%;
+}
+
+input.reset,
+button {
+    width: 25%;
+    margin-top: 5px;
+    background-color: grey;
+}
+

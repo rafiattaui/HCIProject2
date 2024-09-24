@@ -3,25 +3,34 @@
     <link href="style.css" rel="stylesheet">
     <title>HCI LAB Assignment 2</title>
 </head>
-<body style="background-color:beige">
+<body class="background">
     <h1>Reservation Form</h1>
     <form action="action_page.php" method="GET">
         <label for="name">Name:</label>
+        <br>
         <input type="text" name="name">
+        <br>
         <label for="email">Email:</label>
+        <br>
         <input type="text" name="email" placeholder="johndoe@gmail.com">
         <br>
         <label for="dateres">Reservation date:</label>
+        <br>
         <input name="datares" type="date">
-        <label for="timecheckin">Check-in time:</label>
+        <br>
+        <label for="timecheckin">Reservation Time:</label>
+        <br>
         <input name="timecheckin" type="time">
         <br>
         <label for="notelp">Phone Number:</label>
+        <br>
         <input type="tel" name="notelp">
         <br>
-        <input type="reset">
+        <button>Submit</button>
+        <input class="reset" type="reset">
     </form>
     <h3>Menu</h3>
+    <div class="table">
     <table style="background-color:rgb(179, 179, 179)">
         <tr style="background-color:aquamarine">
             <th>Item</th>
@@ -41,4 +50,5 @@
             <th colspan="3">All prices without VAT/Tax</th>
         </tr>
     </table>
+    </div>
 </body>
