@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<head>
+    <link href="style.css" rel="stylesheet">
+    <title>HCI LAB Assignment 2</title>
+</head>
+<body style="background-color:beige">
+    <h1>Reservation Form</h1>
+    <form action="action_page.php" method="GET">
+        <label for="name">Name:</label>
+        <input type="text" name="name">
+        <label for="email">Email:</label>
+        <input type="text" name="email" placeholder="johndoe@gmail.com">
+        <br>
+        <label for="dateres">Reservation date:</label>
+        <input name="datares" type="date">
+        <label for="timecheckin">Check-in time:</label>
+        <input name="timecheckin" type="time">
+        <br>
+        <label for="notelp">Phone Number:</label>
+        <input type="tel" name="notelp">
+        <br>
+        <input type="reset">
+    </form>
+    <h3>Menu</h3>
+    <table style="background-color:rgb(179, 179, 179)">
+        <tr style="background-color:aquamarine">
+            <th>Item</th>
+            <th>Price</th>
+            <th>Ingredients</th>
+        </tr>
+        <tr>
+            <td>Nasi Goreng</td>
+            <td>Rp. 30jt</td>
+            <td rowspan="2">Wagyu A5</td>
+        </tr>
+        <tr>
+            <td>Siomay</td>
+            <td>Rp. 1jt/piece</td>
+        </tr>
+        <tr>
+            <th colspan="3">All prices without VAT/Tax</th>
+        </tr>
+    </table>
+</body>
